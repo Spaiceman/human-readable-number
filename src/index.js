@@ -1,6 +1,6 @@
 module.exports = function toReadable (number) {
       let numbs1= ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"];
-      let numbs2= ["ten","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"];
+      let numbs2= ["","ten","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"];
 
       if (number < 20) return numbs1[number];
       if (number >= 20 && number < 100) {
